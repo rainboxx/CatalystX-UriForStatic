@@ -52,7 +52,7 @@ the following configuration line:
 
   sysenv  local
 
-Now, callong L<CatalystX::UriForStatic/uri_for_static> will return something like
+Now, calling L<CatalystX::UriForStatic/uri_for_static> will return something like
 C<http://localhost/static/foo.png> or whatever your local host name is.
 
 =head2 Not perfect in either way
@@ -78,5 +78,5 @@ This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
 by the Free Software Foundation; or the Artistic License.
 
-See http://dev.perl.org/licenses/ for more information.
+See L<http://dev.perl.org/licenses/> for more information.
 
