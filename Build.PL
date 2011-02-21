@@ -14,6 +14,11 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup      => [ 'CatalystX-UriForStatic-*' ],
     create_makefile_pl => 'traditional',
+    meta_merge => {
+        resources => {
+            repository  => 'http://github.com/rainboxx/CatalystX-UriForStatic/'
+        }
+    },
 );
 
 $builder->create_build_script();
