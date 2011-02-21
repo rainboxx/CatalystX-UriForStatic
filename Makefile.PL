@@ -5,6 +5,8 @@ WriteMakefile
   'NAME' => 'CatalystX::UriForStatic',
   'VERSION_FROM' => 'lib/CatalystX/UriForStatic.pm',
   'PREREQ_PM' => {
+                   'Catalyst' => '5.80029',
+                   'Moose' => 0,
                    'Test::More' => 0
                  },
   'INSTALLDIRS' => 'site',

@@ -3,6 +3,8 @@ abstract: 'Implements an uri_for_static method for Catalyst applications!'
 author:
   - 'Matthias Dietrich <perl@rainboxx.de>'
 build_requires:
+  Catalyst: 5.80029
+  Moose: 0
   Test::More: 0
 configure_requires:
   Module::Build: 0.36
