@@ -20,4 +20,5 @@ provides:
     version: 0.01
 resources:
   license: http://dev.perl.org/licenses/
+  repository: http://github.com/rainboxx/CatalystX-UriForStatic/
 version: 0.01
