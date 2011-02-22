@@ -12,11 +12,16 @@ my $builder = Module::Build->new(
         'Moose' => 0,
         'Catalyst' => '5.80029',
     },
+    configure_requires => {
+        'Module::Build' => 0.36,
+    },
     add_to_cleanup      => [ 'CatalystX-UriForStatic-*' ],
     create_makefile_pl => 'traditional',
     meta_merge => {
         resources => {
-            repository  => 'http://github.com/rainboxx/CatalystX-UriForStatic/'
+            repository => 'git://github.com/rainboxx/CatalystX-UriForStatic.git',
+            homepage   => 'http://github.com/rainboxx/CatalystX-UriForStatic/',
+            bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=CatalystX-UriForStatic',
         }
     },
 );

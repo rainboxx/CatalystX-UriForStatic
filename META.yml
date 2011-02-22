@@ -8,7 +8,7 @@ build_requires:
   Test::More: 0
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+generated_by: 'Module::Build version 0.3624'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,6 +19,8 @@ provides:
     file: lib/CatalystX/UriForStatic.pm
     version: 0.01
 resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=CatalystX-UriForStatic
+  homepage: http://github.com/rainboxx/CatalystX-UriForStatic/
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/rainboxx/CatalystX-UriForStatic/
+  repository: git://github.com/rainboxx/CatalystX-UriForStatic.git
 version: 0.01
