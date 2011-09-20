@@ -4,6 +4,7 @@ use warnings;
 use strict;
 
 use Moose::Role;
+use URI;
 
 =head1 NAME
 
@@ -15,7 +16,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -67,7 +68,7 @@ sub uri_for_static {
 
     $path = '/' . $path unless $path =~ m,^/,;
 
-    return $c->config->{static_host} . $path;
+    return URI->new($c->config->{static_host} . $path);
 }
 
 =head1 CONFIGURATION

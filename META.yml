@@ -6,6 +6,7 @@ build_requires:
   Catalyst: 5.80029
   Moose: 0
   Test::More: 0
+  URI: 0
 configure_requires:
   Module::Build: 0.36
 generated_by: 'Module::Build version 0.3624'
@@ -17,10 +18,10 @@ name: CatalystX-UriForStatic
 provides:
   CatalystX::UriForStatic:
     file: lib/CatalystX/UriForStatic.pm
-    version: 0.01
+    version: 0.02
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=CatalystX-UriForStatic
   homepage: http://github.com/rainboxx/CatalystX-UriForStatic/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/rainboxx/CatalystX-UriForStatic.git
-version: 0.01
+version: 0.02

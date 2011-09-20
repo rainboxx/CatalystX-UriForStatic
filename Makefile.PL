@@ -7,7 +7,8 @@ WriteMakefile
   'PREREQ_PM' => {
                    'Catalyst' => '5.80029',
                    'Moose' => 0,
-                   'Test::More' => 0
+                   'Test::More' => 0,
+                   'URI' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

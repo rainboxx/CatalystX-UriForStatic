@@ -11,4 +11,9 @@ sub get_static_uri : Local {
     $c->response->body($c->uri_for_static('/static/foo.png'));
 }
 
+sub get_static_uri_as_string : Local {
+    my ($self, $c) = @_;
+    $c->response->body($c->uri_for_static('/static/foo.png')->as_string);
+}
+
 1;
