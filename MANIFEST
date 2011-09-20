@@ -3,7 +3,7 @@ Changes
 ignore.txt
 lib/CatalystX/UriForStatic.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 README
 README.pod
@@ -12,6 +12,7 @@ t/01-uri_for_static-local.t
 t/02-uri_for_static-local-nondefault.t
 t/03-uri_for_static-prod.t
 t/04-uri_for_static-prod-nondefault.t
+t/05-uri_for_static-as_string.t
 t/boilerplate.t
 t/lib/TestAppLocal.pm
 t/lib/TestAppLocal/Controller/Tester.pm
